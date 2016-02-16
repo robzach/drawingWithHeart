@@ -7,7 +7,7 @@ Draws a live pulse on a US Cutter MH871-MK2 pen plotter.
  Pulse data comes via Arduino, read from World Famous Electronics's pulse oximeter. This sketch includes code
  provided by World Famous Electronics (in serialEvent) to read data off the device directly.
  
- ## Talking with the plotter via HPGL
+## Talking with the plotter via HPGL
  
  The US Cutter plotter talks in serial via the fairly ancient HPGL language. (This stands for Hewlett Packard Graphics
  Language. It's old, and it's simple.) Here are the commands this plotter understands:
@@ -22,11 +22,17 @@ Draws a live pulse on a US Cutter MH871-MK2 pen plotter.
  One x or y unit is 1/1000 inch. The origin is where the pen starts after pushing the Reset button, on the right of the machine.
  Facing the machine, a leftward pen movement is postive along Y, and a paper feed towards you is positive along X.
  
+## Arduino
  Pulse sensor is running on Arduino, using code provided by the manufacturer. Confirm that line 30
  of the Arduino code sets variable serialVisual to false before uploading to Arduino. Other than that
  the code is unchanged from that which is available at 
  <https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino>.
  
- Code released to the public domain by the author.
+## Video of the setup in action
+
+https://www.youtube.com/watch?v=Gso9xMhnO-M
  
-  For Golan Levin's Interactive Art and Computational Design class at Carnegie Mellon University, 2/15/16
+For Golan Levin's Interactive Art and Computational Design class at Carnegie Mellon University, 2/15/16
+
+Code released to the public domain by the author.
+
