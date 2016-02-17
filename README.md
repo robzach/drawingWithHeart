@@ -6,7 +6,7 @@ Quick overview video: https://www.youtube.com/watch?v=Gso9xMhnO-M
  
  Live plots freehand mouse drawings and/or pulse-based drawings on US Cutter MH871-MK2 plotter.
  Draws your live pulse along a straight line, in a circle, in a spiral, or in a heart shape.
- Pulse data comes via Arduino, read from World Famous Electronics's pulse oximeter, with the data flowing through a Processing sketch (which is provided here). This sketch includes code
+ Pulse data comes via Arduino, read from World Famous Electronics's pulse oximeter, with the data flowing through a Processing sketch (drawingWithHeart.pde). This sketch includes code
  provided by World Famous Electronics (in serialEvent) to read data off the device directly.
  
 ## Talking with the plotter via HPGL
