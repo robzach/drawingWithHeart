@@ -1,6 +1,8 @@
 # drawingWithHeart
 
 Draws a live pulse on a US Cutter MH871-MK2 pen plotter.
+
+Quick overview video: https://www.youtube.com/watch?v=Gso9xMhnO-M
  
  Live plots freehand mouse drawings and/or pulse-based drawings on US Cutter MH871-MK2 plotter.
  Draws your live pulse along a straight line, in a circle, in a spiral, or in a heart shape.
@@ -28,9 +30,7 @@ The plotter is not case sensitive. It does not send any acknowledge, buffer full
  the code is unchanged from that which is available at 
  <https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino>.
  
-## Video of the setup in action
-
-https://www.youtube.com/watch?v=Gso9xMhnO-M
+***
  
 For Golan Levin's Interactive Art and Computational Design class at Carnegie Mellon University, 2/15/16
 
